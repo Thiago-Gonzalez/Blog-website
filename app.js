@@ -13,7 +13,7 @@ const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rho
 const app = express();
 
 
-mongoose.connect("mongodb://localhost:27017/blogDB");
+mongoose.connect(");
 
 const postsSchema = {
   title: String,
